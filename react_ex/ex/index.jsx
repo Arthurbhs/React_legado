@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import ClassComponent from './ClassComponent'
 import Component from './Component'
 import { Primeiro, Segundo } from './Component1'
 import Family from './Family'
 import Famyli from './Famyli'
+import Field from './Fild'
 import Member from './member'
 
 
@@ -22,6 +24,13 @@ ReactDOM.render(
     <Member name='Julio'/>
 </Famyli>
 
+</div>
+<br />
+<div>
+    <h1>Componentes de classe</h1>
+    <ClassComponent label='Contador' initialValue={1}/>
+    <br />
+    <Field initialValue='Teste'/>
 </div>
 </div>, 
 
